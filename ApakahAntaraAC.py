@@ -1,4 +1,4 @@
 def isB (x:str)->bool:
-    if x == "B" or x == "b": return True
-    else: return False
+    return True if x.lower() == 'b' else False
+    
 print(isB("b"))
